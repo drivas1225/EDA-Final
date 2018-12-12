@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1544569790 source:c:\users\diego\desktop\trabajo final de eda\main.cpp
+	<iostream>
+	<vector>
+	<sstream>
+	<fstream>
+	<bitset>
+	"node.h"
+
+1544581828 c:\users\diego\desktop\trabajo final de eda\node.h
+	<iostream>
+	<vector>
+	<set>
+	<stdlib.h>
+	"mdd.h"
+
+1544581810 c:\users\diego\desktop\trabajo final de eda\mdd.h
+	<iostream>
+	<bitset>
+	<stdlib.h>
+
