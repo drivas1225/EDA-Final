@@ -163,6 +163,10 @@ public:
 
 	}
 
+	vector<std::set<node2>::iterator> bus_prefijo(){
+
+	}
+
     void knn( mdd<DIM> datos, set<node2> * ptrmyvec, int k){
 
             if(cant_datos<k){
@@ -179,8 +183,11 @@ public:
                 ptrmyvec = res[nivel]->ptrVN;
             }
 
-            for(int i = res.size()-1 ; i >= 0 ;i--){
-                res[i]->name;
+            for(int i = res.size()-1 ; i > 0 ;i--){             // si no entiendo mal tengo que pasar un prefijo (el nodo anterior) y retornas un vector ordenado de distancias
+                vector<std::set<node2>::iterator> next = bus_prefijo();
+                /*for(int i = res.size()-1 ; i > 0 ;i--){
+                        res[i]->name;
+                }*/
             }
 
         }
